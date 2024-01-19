@@ -24,5 +24,10 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void Num8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

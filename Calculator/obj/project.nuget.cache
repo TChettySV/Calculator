@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6O/urrXejWmVCf3iCFtml3h5wDJSsrvmqsxBsTvNnDDNn9J+rpupgRJAoVWWkq1gOGw9juTyuA4wkEO9aoTqqQ==",
+  "dgSpecHash": "prf6d2s2Skx7ztygO9Q7mMh3GAjEdSoMT8anp2ZMdD50+qdsxAmWPfoIrHySeKZCYiLJGJ4tua+Bwbl2q14bUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\tchetty\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\tchetty\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tchetty\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tchetty\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tchetty\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -6,7 +6,29 @@
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.053"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TextBlock HorizontalAlignment="Left" Height="42" Margin="39,41,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="690"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="70,169,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name="Num8" Content="8" HorizontalAlignment="Left" Height="30" Margin="191,169,0,0" VerticalAlignment="Top" Width="90" Click="Num8_Click"/>
+        <Button x:Name="Num9" Content="9" HorizontalAlignment="Left" Height="30" Margin="321,169,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name="Num7" HorizontalAlignment="Left" Height="30" Margin="70,169,0,0" VerticalAlignment="Top" Width="90" Content="7"/>
+        <Button x:Name="Num4" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="68,228,0,0" Content="4"/>
+        <Button x:Name="Num5" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="189,228,0,0" Content="5" RenderTransformOrigin="0.553,0.463"/>
+        <Button x:Name="Num6" Content="6" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="319,228,0,0"/>
+        <Button x:Name="Num1" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="68,294,0,0" Content="1"/>
+        <Button x:Name="Num2" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="189,294,0,0" Content="2"/>
+        <Button x:Name="Num3" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="319,294,0,0" Content="3"/>
+        <Button x:Name="Num0" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="189,355,0,0" Content="0"/>
+        <Button x:Name="Ng" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Margin="68,355,0,0" Content="+/-"/>
+        <Button x:Name="comma" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Content="," Margin="316,355,0,0"/>
 
     </Grid>
 </Window>
